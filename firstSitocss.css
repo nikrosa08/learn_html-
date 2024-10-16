@@ -1,0 +1,34 @@
+#start {
+    background: #FFFFFF;
+background: -moz-radial-gradient(center, #FFFFFF 0%, #FDDFFF 38%, #EBC8FF 100%);
+background: -webkit-radial-gradient(center, #FFFFFF 0%, #FDDFFF 38%, #EBC8FF 100%);
+background: radial-gradient(ellipse at center, #FFFFFF 0%, #FDDFFF 38%, #EBC8FF 100%);
+    height: 175px;
+    padding-top: 75px;
+    padding-bottom: 175px;
+}
+
+h1 {
+    color: rgb(60, 119, 175);
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto; 
+    text-align-last: center;
+    
+}
+
+#capitoletto {
+    color: rgb(73, 73, 73);
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 33px;
+    width: 60%;
+    margin: 20%;
+    margin-top: 0%;
+    -webkit-border-radius: 12px;
+border-radius: 12px;
+}
+
+#scritta1 {
+    background-color: lightblue;
+}
