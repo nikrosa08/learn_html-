@@ -3,40 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Il Mio Sito</title>
-    <link rel="stylesheet" href="chatgpt.css">
-    
-    
+    <title>Illuminare il Bordo del Box</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* CSS */
+        .box {
+            height: 120px;
+            width: 350px;
+            background-color: rgb(175, 175, 204);
+            border-radius: 11px;
+            transition: border 0.3s; /* Transizione per il bordo */
+            border: 5px solid transparent; /* Bordo trasparente inizialmente */
+        }
+
+        .box.highlight {
+            border: 5px solid rgba(0, 0, 0, 0.8); /* Bordo illuminato di nero */
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Benvenuto nel Mio Sito</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">Chi Siamo</a></li>
-                <li><a href="#contact">Contatti</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div id="flex">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
     
-    <section id="home">
-        <h2>Home</h2>
-        <p>Questo è un sito di esempio creato con HTML e CSS.</p>
-    </section>
-    
-    <section id="about">
-        <h2>Chi Siamo</h2>
-        <p>Informazioni su di noi e i nostri obiettivi.</p>
-    </section>
-    
-    <section id="contact">
-        <h2>Contatti</h2>
-        <p>Contattaci all'indirizzo email: info@esempio.com</p>
-    </section>
-    
-    <footer>
-        <p>&copy; 2024 Il Mio Sito</p>
-    </footer>
 </body>
 </html>
